@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HW-233 OTA Live (with Prisma)</title>
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <style>
+    body { 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      text-align: center; 
+      margin: 0;
+      padding: 20px;
+      min-height: 100vh;
+      color: white;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      color: #2d3436;
+    }
+    h1 { 
+      color: #2d3436; 
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+    }
+    .status {
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+    .status.connected {
+      background: #00b894;
+      color: white;
+    }
+    .status.disconnected {
+      background: #d63031;
+      color: white;
+    }
+    .val { 
+      font-size: 2rem; 
+      margin: 20px;
+      font-weight: bold;
+      color: #0984e3;
+    }
+    .val span {
+      color: #2d3436;
+      font-size: 2.5rem;
+    }
+    .info {
+      font-size: 0.9rem;
+      color: #636e72;
+      margin-top: 10px;
+    }
+    .chart-container {
+      position: relative;
+      height: 400px;
+      width: 100%;
+      margin-top: 30px;
+    }
+    canvas { 
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎚️ HW-233 OTA Channel</h1>
+    <div class="status disconnected" id="status">Disconnected</div>
+    <div class="val">OTA Value: <span id="otaVal">--</span></div>
+    <div class="val">Voltage: <span id="otaVolt">--</span> V</div>
+    <div class="info">
+      <div>Last Update: <span id="lastUpdate">Waiting for data...</span></div>
+      <div>Data Points: <span id="dataCount">0</span></div>
+    </div>
+    <div class="chart-container">
+      <canvas id="chart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const socket = io();
+    const otaVal = document.getElementById("otaVal");
+    const otaVolt = document.getElementById("otaVolt");
+    const status = document.getElementById("status");
+    const lastUpdate = document.getElementById("lastUpdate");
+    const dataCount = document.getElementById("dataCount");
+    let pointCount = 0;
+
+    // Connection status
+    socket.on("connect", () => {
+      status.textContent = "✅ Connected";
+      status.className = "status connected";
+    });
+
+    socket.on("disconnect", () => {
+      status.textContent = "❌ Disconnected";
+      status.className = "status disconnected";
+    });
+
+    let chart = null;
+
+    // Initialize chart after DOM is ready
+    window.addEventListener('DOMContentLoaded', function() {
+      const ctx = document.getElementById("chart");
+      if (!ctx) {
+        console.error("Chart canvas not found!");
+        return;
+      }
+
+      chart = new Chart(ctx.getContext("2d"), {
+        type: "line",
+        data: {
+          labels: [],
+          datasets: [{
+            label: "OTA Value",
+            data: [],
+            borderColor: "#0984e3",
+            backgroundColor: "rgba(9, 132, 227, 0.1)",
+            borderWidth: 3,
+            fill: true,
+            tension: 0.4,
+            pointRadius: 3,
+            pointHoverRadius: 5,
+            pointBackgroundColor: "#0984e3",
+            pointBorderColor: "#fff",
+            pointBorderWidth: 2
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          animation: {
+            duration: 0
+          },
+          plugins: {
+            legend: {
+              display: true,
+              position: "top"
+            },
+            tooltip: {
+              mode: "index",
+              intersect: false
+            }
+          },
+          scales: { 
+            x: {
+              display: true,
+              title: {
+                display: true,
+                text: "Time"
+              },
+              ticks: {
+                maxRotation: 45,
+                minRotation: 0
+              }
+            },
+            y: { 
+              beginAtZero: false,
+              min: 0,
+              max: 1023,
+              title: {
+                display: true,
+                text: "OTA Value (0-1023)"
+              },
+              ticks: {
+                stepSize: 100
+              }
+            }
+          },
+          interaction: {
+            mode: "nearest",
+            axis: "x",
+            intersect: false
+          }
+        }
+      });
+      console.log("Chart initialized successfully");
+    });
+
+    socket.on("new_data", (data) => {
+      if (!chart) {
+        console.log("Chart not ready yet, waiting...");
+        return;
+      }
+      
+      const time = new Date().toLocaleTimeString();
+      pointCount++;
+      
+      otaVal.textContent = data.ota;
+      otaVolt.textContent = data.voltage.toFixed(2);
+      lastUpdate.textContent = time;
+      dataCount.textContent = pointCount;
+      
+      // Add new data point
+      chart.data.labels.push(time);
+      chart.data.datasets[0].data.push(Number(data.ota));
+
+      // Keep last 30 data points for better visualization
+      if (chart.data.labels.length > 30) {
+        chart.data.labels.shift();
+        chart.data.datasets[0].data.shift();
+      }
+
+      // Update chart with animation disabled for real-time feel
+      chart.update('none');
+    });
+  </script>
+</body>
+</html>
