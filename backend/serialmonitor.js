@@ -4,21 +4,30 @@ import { PrismaClient } from "@prisma/client";
 export default function startSerial(io) {
   const prisma = new PrismaClient();
 
-  const serialPort = new SerialPort({
-  path: "/dev/tty.usbmodem101",  // 👈 your Arduino port
-  baudRate: 9600    
+  // Test database connection
+  prisma.$connect()
+    .then(() => console.log("✅ Database connected!"))
+    .catch((err) => {
+      console.error("❌ Database connection failed:", err.message);
+      process.exit(1);
     });
 
-  // Connection status handlers
+  const serialPort = new SerialPort({
+    path: "/dev/cu.usbmodem101",
+    baudRate: 9600    
+  });
+
   serialPort.on("open", () => {
     console.log("✅ Serial port opened successfully!");
     console.log("🔌 Listening to Arduino (OTA + Voltage)...");
   });
 
   serialPort.on("error", (err) => {
-    console.error("❌ Serial Port Error:", err.message);
+    console.error("Serial Port Error:", err.message);
     if (err.message.includes("cannot open")) {
       console.error("⚠️  Port may be in use or device not connected");
+       console.log("💡 Switching to TEST MODE - waiting for manual data input");
+       console.log("📡 You can send test data via: curl -X POST http://localhost:5001/test-data -d 'ota=512&voltage=5.0'");
     }
   });
 
@@ -50,20 +59,18 @@ export default function startSerial(io) {
 
           
 
-          // Emit to frontend
           io.emit("new_data", { ota, voltage });
 
           
         } catch (dbError) {
           
-          // Still emit to frontend even if DB save fails
           io.emit("new_data", { ota, voltage });
         }
       } else {
-        console.log(`⚠️  Invalid data - OTA: ${ota}, Voltage: ${voltage}`);
+        console.log(`Invalid data - OTA: ${ota}, Voltage: ${voltage}`);
       }
     } else {
-      console.log(`⚠️  Wrong format - Expected 2 values, got ${parts.length}`);
+      console.log(`Wrong format - Expected 2 values, got ${parts.length}`);
     }
   });
 
