@@ -20,3 +20,48 @@ model hw233Ota {
   ota_voltage Float
   createdAt   DateTime @default(now())
 }
+model imu6050 {
+  id        Int      @id @default(autoincrement())
+  accel_x   Float
+  accel_y   Float
+  accel_z   Float
+  gyro_x    Float
+  gyro_y    Float
+  gyro_z    Float
+  createdAt DateTime @default(now())
+}
+model bmp280 {
+  id        Int      @id @default(autoincrement())
+  pressure  Float
+  temp      Float
+  createdAt DateTime @default(now())
+}
+model gpsModule {
+  id        Int      @id @default(autoincrement())
+  lat       Float
+  long      Float
+  sats      Int
+  createdAt DateTime @default(now())
+}
+model batteryStatus {
+  id         Int      @id @default(autoincrement())
+  voltage    Float
+  current    Float
+  percentage Int
+  createdAt  DateTime @default(now())
+}
+model escData {
+  id         Int      @id @default(autoincrement())
+  esc1_rpm   Int
+  esc2_rpm   Int
+  esc3_rpm   Int
+  esc4_rpm   Int
+  createdAt  DateTime @default(now())
+}
+model contourPlotData {
+  id        Int      @id @default(autoincrement())
+  x_value   Float
+  y_value   Float
+  z_value   Float
+  createdAt DateTime @default(now())
+}
