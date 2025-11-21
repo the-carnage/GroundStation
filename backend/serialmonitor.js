@@ -367,6 +367,7 @@
 import { SerialPort, ReadlineParser } from "serialport";
 import { PrismaClient } from "@prisma/client";
 import fs from "fs";
+import { addToCache } from "./dataCache.js";
 
 let isSerialConnected = false; 
 
@@ -377,58 +378,81 @@ export default function startSerial(io) {
   const DEBUG_RAW = process.env.SERIAL_DEBUG_RAW === "1";
   const RAW_LOG_PATH = "serial_raw.log";
 
+  // Optional DB connection (for manual exports if needed later)
   prisma.$connect()
-    .then(() => console.log("✅ Database connected!"))
+    .then(() => console.log("✅ Database connected (optional)"))
     .catch((err) => {
-      console.error("❌ Database connection failed:", err.message);
-      process.exit(1);
+      console.log("ℹ️  Database not required - using in-memory cache");
     });
 
-  const serialPort = new SerialPort({
-    path: "/dev/cu.usbserial-A5069RR4",
-    baudRate: 9600    
-  });
+  let serialPort = null;
+  let currentPortPath = process.env.SERIAL_PORT || "/dev/cu.usbserial-A5069RR4";
+  let currentBaud = parseInt(process.env.SERIAL_BAUD || "9600", 10) || 9600;
 
-  serialPort.on("open", () => {
-    console.log("✅ Serial port opened successfully!");
-    console.log("🔌 Listening to Arduino (Multi-Sensor Schema)...");
-    isSerialConnected = true;
-    io.emit("serial_status", { serial_connected: isSerialConnected });
-  });
-
-  serialPort.on("error", (err) => {
-    console.error("Serial Port Error:", err.message);
-    isSerialConnected = false;
-    io.emit("serial_status", { serial_connected: isSerialConnected });
-    if (err.message.includes("cannot open")) {
-      console.error("⚠️  Port may be in use or device not connected");
-       console.log("💡 Ensure Arduino is connected and uploading data.");
-    }
-  });
-
-  serialPort.on("close", () => {
-    console.log("⚠️  Serial port closed");
-    isSerialConnected = false;
-    io.emit("serial_status", { serial_connected: isSerialConnected });
-  });
-
-  const parser = serialPort.pipe(new ReadlineParser({ delimiter: "\n" }));
-
-  // Also listen for raw chunks so we can inspect encoding/garbage when needed
-  serialPort.on("data", (chunk) => {
-    if (!DEBUG_RAW) return;
+  function openSerial(path, baud) {
     try {
-      const hex = Buffer.from(chunk).toString("hex");
-      const now = new Date().toISOString();
-      const entry = `${now} len=${chunk.length} hex=${hex}\n`;
-      console.log("[SERIAL RAW]", entry);
-      fs.appendFile(RAW_LOG_PATH, entry, (err) => { if (err) console.error("Write raw log failed:", err.message); });
-    } catch (err) {
-      console.error("Failed to log raw chunk:", err.message);
-    }
-  });
+      if (serialPort && serialPort.isOpen) {
+        serialPort.close(() => {});
+      }
+    } catch (e) {}
 
-  parser.on("data", async (line) => {
+    currentPortPath = path || currentPortPath;
+    currentBaud = parseInt(baud || currentBaud, 10) || currentBaud;
+
+    serialPort = new SerialPort({
+      path: currentPortPath,
+      baudRate: currentBaud,
+      autoOpen: true,
+    });
+
+    // emit current baud when we open
+    serialPort.on("open", () => {
+      console.log("✅ Serial port opened successfully!");
+      console.log(`🔌 Listening to Arduino (Multi-Sensor Schema) at ${currentPortPath}@${currentBaud}...`);
+      isSerialConnected = true;
+      io.emit("serial_status", { serial_connected: isSerialConnected });
+      io.emit("serial_baud", { baud: currentBaud });
+    });
+
+    serialPort.on("error", (err) => {
+      console.error("Serial Port Error:", err.message);
+      isSerialConnected = false;
+      io.emit("serial_status", { serial_connected: isSerialConnected });
+      if (err.message.includes("cannot open")) {
+        console.error("⚠️  Port may be in use or device not connected");
+         console.log("💡 Ensure Arduino is connected and uploading data.");
+      }
+    });
+
+    serialPort.on("close", () => {
+      console.log("⚠️  Serial port closed");
+      isSerialConnected = false;
+      io.emit("serial_status", { serial_connected: isSerialConnected });
+    });
+
+    const parser = serialPort.pipe(new ReadlineParser({ delimiter: "\n" }));
+
+    // Also listen for raw chunks so we can inspect encoding/garbage when needed
+    serialPort.on("data", (chunk) => {
+      if (!DEBUG_RAW) return;
+      try {
+        const hex = Buffer.from(chunk).toString("hex");
+        const now = new Date().toISOString();
+        const entry = `${now} len=${chunk.length} hex=${hex}\n`;
+        console.log("[SERIAL RAW]", entry);
+        fs.appendFile(RAW_LOG_PATH, entry, (err) => { if (err) console.error("Write raw log failed:", err.message); });
+      } catch (err) {
+        console.error("Failed to log raw chunk:", err.message);
+      }
+    });
+
+    parser.on("data", parserOnData);
+
+    return serialPort;
+  }
+
+  // parser data handler extracted so we can attach/detach when reopening ports
+  async function parserOnData(line) {
     if (!isSerialConnected) return;
 
     const rawLine = typeof line === "string" ? line : String(line);
@@ -480,17 +504,18 @@ export default function startSerial(io) {
 
       if (!isNaN(ota_value) && !isNaN(ota_voltage) && !isNaN(lat) && !isNaN(long)) {
         try {
-          // --- Database Saving (Batch operations recommended in production) ---
-          await prisma.hw233Ota.create({ 
-            data: { 
-              ota_value, ota_voltage 
-            } });
-          await prisma.imu6050.create({ data: { accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z } });
-          await prisma.bmp280.create({ data: { pressure, temp } });
-          await prisma.gpsModule.create({ data: { lat, long, sats } });
-          await prisma.batteryStatus.create({ data: { voltage: batt_voltage, current: batt_current, percentage } });
-          await prisma.escData.create({ data: { esc1_rpm, esc2_rpm, esc3_rpm, esc4_rpm } });
-          io.emit("new_data", { 
+          // --- Add to in-memory cache instead of database ---
+          const timestamp = new Date();
+          
+          addToCache('ota', { value: ota_value, voltage: ota_voltage, timestamp });
+          addToCache('imu', { accelX: accel_x, accelY: accel_y, accelZ: accel_z, gyroX: gyro_x, gyroY: gyro_y, gyroZ: gyro_z, timestamp });
+          addToCache('bmp', { pressure, temperature: temp, timestamp });
+          addToCache('gps', { latitude: lat, longitude: long, satellites: sats, timestamp });
+          addToCache('battery', { voltage: batt_voltage, current: batt_current, percentage, timestamp });
+          addToCache('esc', { esc1Rpm: esc1_rpm, esc2Rpm: esc2_rpm, esc3Rpm: esc3_rpm, esc4Rpm: esc4_rpm, timestamp });
+          
+          // Emit live telemetry update
+          io.emit("telemetry_update", { 
             // Core Status
             serial_connected: isSerialConnected, 
             
@@ -523,10 +548,10 @@ export default function startSerial(io) {
           });
           // --------------------------------------------------------------------
 
-        } catch (dbError) {
-          console.error("Database error:", dbError.message);
-          io.emit("new_data", { 
-            // Send default error packet if DB fails, using placeholders for other required keys
+        } catch (cacheError) {
+          console.error("Cache error:", cacheError.message);
+          // Still emit telemetry even if cache fails
+          io.emit("telemetry_update", { 
             serial_connected: isSerialConnected, 
             ota: ota_value, voltage: ota_voltage, 
             temperature: temp, humidity: 0, battery: 0,
@@ -571,13 +596,16 @@ export default function startSerial(io) {
         const esc4_rpm = parseInt(parts[19]);
 
         try {
-          await prisma.hw233Ota.create({ data: { ota_value, ota_voltage } });
-          await prisma.imu6050.create({ data: { accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z } });
-          await prisma.bmp280.create({ data: { pressure, temp } });
-          await prisma.gpsModule.create({ data: { lat: lat, long: long, sats: sats } });
-          await prisma.batteryStatus.create({ data: { voltage: batt_voltage, current: batt_current, percentage } });
-          await prisma.escData.create({ data: { esc1_rpm, esc2_rpm, esc3_rpm, esc4_rpm } });
-          io.emit("new_data", {
+          // Add to in-memory cache
+          const timestamp = new Date();
+          addToCache('ota', { value: ota_value, voltage: ota_voltage, timestamp });
+          addToCache('imu', { accelX: accel_x, accelY: accel_y, accelZ: accel_z, gyroX: gyro_x, gyroY: gyro_y, gyroZ: gyro_z, timestamp });
+          addToCache('bmp', { pressure, temperature: temp, timestamp });
+          addToCache('gps', { latitude: lat, longitude: long, satellites: sats, timestamp });
+          addToCache('battery', { voltage: batt_voltage, current: batt_current, percentage, timestamp });
+          addToCache('esc', { esc1Rpm: esc1_rpm, esc2Rpm: esc2_rpm, esc3Rpm: esc3_rpm, esc4Rpm: esc4_rpm, timestamp });
+          
+          io.emit("telemetry_update", {
             serial_connected: isSerialConnected,
             ota: ota_value,
             voltage: ota_voltage,
@@ -594,9 +622,9 @@ export default function startSerial(io) {
             accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z,
             esc1_rpm, esc2_rpm, esc3_rpm, esc4_rpm,
           });
-        } catch (dbError) {
-          console.error("Database error (recovered packet):", dbError.message);
-          io.emit("new_data", { serial_connected: isSerialConnected, ota: ota_value, voltage: ota_voltage });
+        } catch (cacheError) {
+          console.error("Cache error (recovered packet):", cacheError.message);
+          io.emit("telemetry_update", { serial_connected: isSerialConnected, ota: ota_value, voltage: ota_voltage });
         }
         return;
       }
@@ -628,14 +656,15 @@ export default function startSerial(io) {
         };
 
         console.log(`Partial telemetry emitted (${n.length} numbers)`);
-        io.emit("new_data", telemetry);
-        // also save minimal ota record if present
+        io.emit("telemetry_update", telemetry);
+        // Cache minimal ota record if present
         try {
           if (Number.isFinite(n[0])) {
-            await prisma.hw233Ota.create({ data: { ota_value: n[0], ota_voltage: Number.isFinite(n[1]) ? n[1] : 0 } });
+            const timestamp = new Date();
+            addToCache('ota', { value: n[0], voltage: Number.isFinite(n[1]) ? n[1] : 0, timestamp });
           }
         } catch (e) {
-          console.error("DB save failed for partial packet:", e.message);
+          console.error("Cache save failed for partial packet:", e.message);
         }
         return;
       }
@@ -644,7 +673,26 @@ export default function startSerial(io) {
       dumpBadPacket(`expected_${EXPECTED_PARTS}_got_${parts.length}`);
       console.log(`Wrong format - Expected ${EXPECTED_PARTS} values, got ${parts.length}. Data (trimmed): ${rawLine.slice(0,200)}`);
     }
-  });
+  }
+
+  // open initial port
+  openSerial(currentPortPath, currentBaud);
+
+  // expose control API so index.js can change port/baud
+  return {
+    setPortAndBaud: (path, baud) => {
+      console.log(`Requested setPortAndBaud -> ${path}@${baud}`);
+      try {
+        openSerial(path || currentPortPath, baud || currentBaud);
+        io.emit('serial_baud', { baud: currentBaud });
+        return { success: true };
+      } catch (err) {
+        console.error('Failed to set port/baud:', err.message);
+        return { success: false, error: err.message };
+      }
+    },
+    getCurrent: () => ({ path: currentPortPath, baud: currentBaud }),
+  };
 
 
   

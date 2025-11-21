@@ -1,0 +1,2249 @@
+🔄 Starting port monitor (refresh every 5000ms)
+Server listening on http://localhost:5001
+Serial Port Error: Error: No such file or directory, cannot open /dev/cu.usbserial-A5069RR4
+⚠️  Port may be in use or device not connected
+💡 Ensure Arduino is connected and uploading data.
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+✅ Database connected (optional)
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 2 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port
+🔄 Port monitor update: 2 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 Emitting port snapshot to client: 3 ports
+📤 Emitting port snapshot to client: 3 ports
+Serial settings change requested: { port: '/dev/tty.usbmodem101', baud: 9600 }
+Requested setPortAndBaud -> /dev/tty.usbmodem101@9600
+✅ Serial port opened successfully!
+🔌 Listening to Arduino (Multi-Sensor Schema) at /dev/tty.usbmodem101@9600...
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Serial settings change requested: { port: '/dev/tty.usbmodem101', baud: 9600 }
+Requested setPortAndBaud -> /dev/tty.usbmodem101@9600
+⚠️  Serial port closed
+✅ Serial port opened successfully!
+🔌 Listening to Arduino (Multi-Sensor Schema) at /dev/tty.usbmodem101@9600...
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+⚠️  Serial port closed
+📡 Found 2 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port
+🔄 Port monitor update: 2 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📤 CSV Export requested - Time range: All
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 2 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port
+🔄 Port monitor update: 2 ports, broadcasting to clients
+📡 Found 2 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port
+🔄 Port monitor update: 2 ports, broadcasting to clients
+📡 Found 2 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port
+🔄 Port monitor update: 2 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Serial settings change requested: { port: '/dev/tty.usbmodem101', baud: 9600 }
+Requested setPortAndBaud -> /dev/tty.usbmodem101@9600
+✅ Serial port opened successfully!
+🔌 Listening to Arduino (Multi-Sensor Schema) at /dev/tty.usbmodem101@9600...
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📤 CSV Export requested - Time range: All
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📤 XLSX Export requested - Time range: All
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📤 XLSX Export requested - Time range: All
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+📡 Found 3 serial port(s): /dev/tty.debug-console, /dev/tty.Bluetooth-Incoming-Port, /dev/tty.usbmodem101
+🔄 Port monitor update: 3 ports, broadcasting to clients
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
+Wrong format - Expected 20 values, got 1. Data (trimmed): Touch sensor: 0
