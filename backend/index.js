@@ -1047,9 +1047,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new SocketIOServer(server);
 
-// Assuming the frontend files are in a folder named 'frontend' one level up
-// app.use(express.static(path.join(__dirname, "../frontend"))); // original path
-// Corrected to:
+
 app.use(express.static(path.join(__dirname, '..', 'frontend')));
 
 startSerial(io);
@@ -1066,13 +1064,12 @@ app.post("/test-data", (req, res) => {
     return res.status(400).json({ error: "Invalid values" });
   }
 
-  // Build a full telemetry packet that matches frontend expectations
   const now = new Date();
   const telemetry = {
     ota: otaVal,
     voltage: voltageVal,
     temperature: 25 + (otaVal % 5),
-    humidity: 1013 + (otaVal % 10), // mapped to pressure display in UI
+    humidity: 1013 + (otaVal % 10),
     battery: Math.min(100, Math.max(0, Math.floor((voltageVal / 5) * 100))),
     batt_current: (voltageVal / 5).toFixed(2),
     gps_sats: Math.min(12, Math.max(0, Math.floor(otaVal / 80))),
