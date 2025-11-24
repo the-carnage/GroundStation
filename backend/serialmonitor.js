@@ -38,18 +38,18 @@
 //   const parser = serialPort.pipe(new ReadlineParser({ delimiter: "\n" }));
 
 //   parser.on("data", async (line) => {
-   
-    
+
+
 //     const parts = line.trim().split(",");
 //     if (parts.length === 2) {
 //       const ota = parseInt(parts[0]);
 //       const voltage = parseFloat(parts[1]);
 
-     
+
 
 //       if (!isNaN(ota) && !isNaN(voltage)) {
 //         try {
-          
+
 //           const savedData = await prisma.hw233Ota.create({
 //             data: {
 //               ota_value: ota,
@@ -57,13 +57,13 @@
 //             },
 //           });
 
-          
+
 
 //           io.emit("new_data", { ota, voltage });
 
-          
+
 //         } catch (dbError) {
-          
+
 //           io.emit("new_data", { ota, voltage });
 //         }
 //       } else {
@@ -74,9 +74,9 @@
 //     }
 //   });
 
-  
 
-  
+
+
 // }
 // import { SerialPort, ReadlineParser } from "serialport";
 // import { PrismaClient } from "@prisma/client";
@@ -207,7 +207,7 @@
 //           io.emit("new_data", { 
 //             // Core Status
 //             serial_connected: isSerialConnected, 
-            
+
 //             // OTA
 //             ota: ota_value, 
 //             voltage: ota_voltage, // Using the OTA Voltage for the main display
@@ -215,7 +215,7 @@
 //             // BMP280/Temp
 //             temperature: temp, 
 //             humidity: pressure, // Frontend uses humidity, but BMP data is pressure, we'll map pressure to the humidity slot for display consistency.
-            
+
 //             // Battery
 //             battery: percentage,
 //             batt_voltage: batt_voltage,
@@ -228,7 +228,7 @@
 //             // Time/Date must be derived or sent from Arduino, here we derive locally for GPS data accuracy display
 //             gps_time: new Date().toLocaleTimeString('en-US', { hour12: false }),
 //             gps_date: new Date().toLocaleDateString('en-US'),
-            
+
 //             // IMU
 //             accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z,
 
@@ -361,29 +361,31 @@
 //   });
 
 
-  
+
 // }
 // module.exports = serialPort;
 import { SerialPort, ReadlineParser } from "serialport";
-import { PrismaClient } from "@prisma/client";
+// import { PrismaClient } from "@prisma/client";
 import fs from "fs";
 import { addToCache } from "./dataCache.js";
+import { parseFlexibleData } from "./dataParser.js";
+import configManager from "./configManager.js";
 
-let isSerialConnected = false; 
+let isSerialConnected = false;
 
 export default function startSerial(io) {
-  const prisma = new PrismaClient();
+  // const prisma = new PrismaClient();
 
   // Toggle raw logging by setting env var: SERIAL_DEBUG_RAW=1
   const DEBUG_RAW = process.env.SERIAL_DEBUG_RAW === "1";
   const RAW_LOG_PATH = "serial_raw.log";
 
   // Optional DB connection (for manual exports if needed later)
-  prisma.$connect()
-    .then(() => console.log("✅ Database connected (optional)"))
-    .catch((err) => {
-      console.log("ℹ️  Database not required - using in-memory cache");
-    });
+  // prisma.$connect()
+  //   .then(() => console.log("✅ Database connected (optional)"))
+  //   .catch((err) => {
+  //     console.log("ℹ️  Database not required - using in-memory cache");
+  //   });
 
   let serialPort = null;
   let currentPortPath = process.env.SERIAL_PORT || "/dev/cu.usbserial-A5069RR4";
@@ -392,9 +394,9 @@ export default function startSerial(io) {
   function openSerial(path, baud) {
     try {
       if (serialPort && serialPort.isOpen) {
-        serialPort.close(() => {});
+        serialPort.close(() => { });
       }
-    } catch (e) {}
+    } catch (e) { }
 
     currentPortPath = path || currentPortPath;
     currentBaud = parseInt(baud || currentBaud, 10) || currentBaud;
@@ -420,7 +422,7 @@ export default function startSerial(io) {
       io.emit("serial_status", { serial_connected: isSerialConnected });
       if (err.message.includes("cannot open")) {
         console.error("⚠️  Port may be in use or device not connected");
-         console.log("💡 Ensure Arduino is connected and uploading data.");
+        console.log("💡 Ensure Arduino is connected and uploading data.");
       }
     });
 
@@ -456,222 +458,94 @@ export default function startSerial(io) {
     if (!isSerialConnected) return;
 
     const rawLine = typeof line === "string" ? line : String(line);
-    const parts = rawLine.trim().split(",");
-    const EXPECTED_PARTS = 20;
 
-    // Helper to flush a bad packet to a file for offline analysis
-    const dumpBadPacket = (reason) => {
-      try {
-        const dump = `${new Date().toISOString()} reason=${reason} len=${rawLine.length} data=${rawLine.replace(/\r?\n/g, "\\n")}\n`;
-        fs.appendFile("serial_bad_packets.log", dump, () => {});
-      } catch (e) { /* ignore */ }
-    };
+    // Emit raw serial data for serial monitor display
+    io.emit("serial_data", {
+      raw: rawLine,
+      timestamp: new Date().toISOString(),
+    });
 
-    // If we have the expected CSV, proceed as before
-    if (parts.length === EXPECTED_PARTS) {
-      // 1. OTA Data
-      const ota_value = parseInt(parts[0]);
-      const ota_voltage = parseFloat(parts[1]);
+    try {
+      // Parse data using flexible parser
+      const parsed = parseFlexibleData(rawLine);
 
-      // 2. IMU Data
-      const accel_x = parseFloat(parts[2]);
-      const accel_y = parseFloat(parts[3]);
-      const accel_z = parseFloat(parts[4]);
-      const gyro_x = parseFloat(parts[5]);
-      const gyro_y = parseFloat(parts[6]);
-      const gyro_z = parseFloat(parts[7]);
-
-      // 3. BMP280 Data (Pressure/Temp)
-      const pressure = parseFloat(parts[8]);
-      const temp = parseFloat(parts[9]);
-
-      // 4. GPS Data
-      const lat = parseFloat(parts[10]);
-      const long = parseFloat(parts[11]);
-      const sats = parseInt(parts[12]);
-
-      // 5. Battery Data
-      const batt_voltage = parseFloat(parts[13]);
-      const batt_current = parseFloat(parts[14]);
-      const percentage = parseInt(parts[15]);
-
-      // 6. ESC Data
-      const esc1_rpm = parseInt(parts[16]);
-      const esc2_rpm = parseInt(parts[17]);
-      const esc3_rpm = parseInt(parts[18]);
-      const esc4_rpm = parseInt(parts[19]);
-
-
-      if (!isNaN(ota_value) && !isNaN(ota_voltage) && !isNaN(lat) && !isNaN(long)) {
-        try {
-          // --- Add to in-memory cache instead of database ---
-          const timestamp = new Date();
-          
-          addToCache('ota', { value: ota_value, voltage: ota_voltage, timestamp });
-          addToCache('imu', { accelX: accel_x, accelY: accel_y, accelZ: accel_z, gyroX: gyro_x, gyroY: gyro_y, gyroZ: gyro_z, timestamp });
-          addToCache('bmp', { pressure, temperature: temp, timestamp });
-          addToCache('gps', { latitude: lat, longitude: long, satellites: sats, timestamp });
-          addToCache('battery', { voltage: batt_voltage, current: batt_current, percentage, timestamp });
-          addToCache('esc', { esc1Rpm: esc1_rpm, esc2Rpm: esc2_rpm, esc3Rpm: esc3_rpm, esc4Rpm: esc4_rpm, timestamp });
-          
-          // Emit live telemetry update
-          io.emit("telemetry_update", { 
-            // Core Status
-            serial_connected: isSerialConnected, 
-            
-            // OTA
-            ota: ota_value, 
-            voltage: ota_voltage, // Using the OTA Voltage for the main display
-
-            // BMP280/Temp
-            temperature: temp, 
-            humidity: pressure, // Frontend uses humidity slot for Pressure data display (hPa)
-            
-            // Battery
-            battery: percentage,
-            batt_voltage: batt_voltage,
-            batt_current: batt_current,
-
-            // GPS
-            gps_lat: lat,
-            gps_lon: long,
-            gps_sats: sats,
-            // Time/Date must be derived or sent from Arduino, here we derive locally for GPS data accuracy display
-            gps_time: new Date().toLocaleTimeString('en-US', { hour12: false }),
-            gps_date: new Date().toLocaleDateString('en-US'),
-            
-            // IMU
-            accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z,
-
-            // ESC
-            esc1_rpm, esc2_rpm, esc3_rpm, esc4_rpm,
-          });
-          // --------------------------------------------------------------------
-
-        } catch (cacheError) {
-          console.error("Cache error:", cacheError.message);
-          // Still emit telemetry even if cache fails
-          io.emit("telemetry_update", { 
-            serial_connected: isSerialConnected, 
-            ota: ota_value, voltage: ota_voltage, 
-            temperature: temp, humidity: 0, battery: 0,
-            gps_lat: lat, gps_lon: long, gps_time: '--', gps_date: '--'
-          });
-        }
-      } else {
-        console.log(`Invalid data types in serial packet. Data: ${line}`);
+      if (!parsed.data || Object.keys(parsed.data).length === 0) {
+        // No valid data found
+        return;
       }
-    } else {
-      // Try a tolerant numeric extraction fallback: grab all floats/ints present
-      const numberRegex = /-?\d+(?:\.\d+)?/g;
-      const nums = rawLine.match(numberRegex) || [];
 
-      if (nums.length >= EXPECTED_PARTS) {
-        // Use the first EXPECTED_PARTS numbers found
-        const partsFromNums = nums.slice(0, EXPECTED_PARTS);
-        console.log(`Recovered ${partsFromNums.length} numeric values from noisy packet.`);
-        // Replace parts with recovered numeric strings and continue processing
-        for (let i = 0; i < EXPECTED_PARTS; i++) parts[i] = partsFromNums[i];
-        // Now fall through to the same handling as the expected CSV branch
-        // (duplicate minimal parsing logic to avoid restructuring large block)
-        const ota_value = parseInt(parts[0]);
-        const ota_voltage = parseFloat(parts[1]);
-        const accel_x = parseFloat(parts[2]);
-        const accel_y = parseFloat(parts[3]);
-        const accel_z = parseFloat(parts[4]);
-        const gyro_x = parseFloat(parts[5]);
-        const gyro_y = parseFloat(parts[6]);
-        const gyro_z = parseFloat(parts[7]);
-        const pressure = parseFloat(parts[8]);
-        const temp = parseFloat(parts[9]);
-        const lat = parseFloat(parts[10]);
-        const long = parseFloat(parts[11]);
-        const sats = parseInt(parts[12]);
-        const batt_voltage = parseFloat(parts[13]);
-        const batt_current = parseFloat(parts[14]);
-        const percentage = parseInt(parts[15]);
-        const esc1_rpm = parseInt(parts[16]);
-        const esc2_rpm = parseInt(parts[17]);
-        const esc3_rpm = parseInt(parts[18]);
-        const esc4_rpm = parseInt(parts[19]);
+      // Update schema with newly detected fields
+      configManager.updateSchema(parsed.data);
 
-        try {
-          // Add to in-memory cache
-          const timestamp = new Date();
-          addToCache('ota', { value: ota_value, voltage: ota_voltage, timestamp });
-          addToCache('imu', { accelX: accel_x, accelY: accel_y, accelZ: accel_z, gyroX: gyro_x, gyroY: gyro_y, gyroZ: gyro_z, timestamp });
-          addToCache('bmp', { pressure, temperature: temp, timestamp });
-          addToCache('gps', { latitude: lat, longitude: long, satellites: sats, timestamp });
-          addToCache('battery', { voltage: batt_voltage, current: batt_current, percentage, timestamp });
-          addToCache('esc', { esc1Rpm: esc1_rpm, esc2Rpm: esc2_rpm, esc3Rpm: esc3_rpm, esc4Rpm: esc4_rpm, timestamp });
-          
-          io.emit("telemetry_update", {
+      // Emit schema update (throttled - only if schema changed)
+      const currentSchema = configManager.getSchema();
+      io.emit("schema_update", {
+        schema: currentSchema,
+        format: parsed.format,
+      });
+
+      // Add to cache with flexible structure
+      const timestamp = new Date();
+      for (const [key, value] of Object.entries(parsed.data)) {
+        if (typeof value === 'number') {
+          addToCache(key, { value, timestamp });
+        }
+      }
+
+      // Emit parsed telemetry data
+      io.emit("telemetry_update", {
+        ...parsed.data,
+        serial_connected: isSerialConnected,
+        timestamp: parsed.timestamp.toISOString(),
+        format: parsed.format,
+      });
+
+      // Backwards compatibility: emit old-style events for existing 20-field CSV format
+      if (parsed.format === 'csv' && Object.keys(parsed.data).length >= 20) {
+        // Check if it looks like the legacy format
+        const keys = Object.keys(parsed.data).sort();
+        if (keys[0].startsWith('field_')) {
+          // Legacy CSV with auto-generated keys - map to old field names
+          const data = Object.values(parsed.data);
+          const legacyData = {
             serial_connected: isSerialConnected,
-            ota: ota_value,
-            voltage: ota_voltage,
-            temperature: temp,
-            humidity: pressure,
-            battery: percentage,
-            batt_voltage,
-            batt_current,
-            gps_lat: lat,
-            gps_lon: long,
-            gps_sats: sats,
+            ota: data[0],
+            voltage: data[1],
+            accel_x: data[2],
+            accel_y: data[3],
+            accel_z: data[4],
+            gyro_x: data[5],
+            gyro_y: data[6],
+            gyro_z: data[7],
+            pressure: data[8],
+            temperature: data[9],
+            gps_lat: data[10],
+            gps_lon: data[11],
+            gps_sats: data[12],
+            batt_voltage: data[13],
+            batt_current: data[14],
+            battery: data[15],
+            esc1_rpm: data[16],
+            esc2_rpm: data[17],
+            esc3_rpm: data[18],
+            esc4_rpm: data[19],
             gps_time: new Date().toLocaleTimeString('en-US', { hour12: false }),
             gps_date: new Date().toLocaleDateString('en-US'),
-            accel_x, accel_y, accel_z, gyro_x, gyro_y, gyro_z,
-            esc1_rpm, esc2_rpm, esc3_rpm, esc4_rpm,
-          });
-        } catch (cacheError) {
-          console.error("Cache error (recovered packet):", cacheError.message);
-          io.emit("telemetry_update", { serial_connected: isSerialConnected, ota: ota_value, voltage: ota_voltage });
-        }
-        return;
-      }
-      if (nums.length >= 2) {
-        const n = nums.map((s) => Number(s));
-        const telemetry = {
-          serial_connected: isSerialConnected,
-          ota: Number.isFinite(n[0]) ? n[0] : null,
-          voltage: Number.isFinite(n[1]) ? n[1] : null,
-          // optional fields if present
-          accel_x: Number.isFinite(n[2]) ? n[2] : null,
-          accel_y: Number.isFinite(n[3]) ? n[3] : null,
-          accel_z: Number.isFinite(n[4]) ? n[4] : null,
-          gyro_x: Number.isFinite(n[5]) ? n[5] : null,
-          gyro_y: Number.isFinite(n[6]) ? n[6] : null,
-          gyro_z: Number.isFinite(n[7]) ? n[7] : null,
-          pressure: Number.isFinite(n[8]) ? n[8] : null,
-          temperature: Number.isFinite(n[9]) ? n[9] : null,
-          gps_lat: Number.isFinite(n[10]) ? n[10] : null,
-          gps_lon: Number.isFinite(n[11]) ? n[11] : null,
-          gps_sats: Number.isFinite(n[12]) ? n[12] : null,
-          batt_voltage: Number.isFinite(n[13]) ? n[13] : null,
-          batt_current: Number.isFinite(n[14]) ? n[14] : null,
-          battery: Number.isFinite(n[15]) ? n[15] : null,
-          esc1_rpm: Number.isFinite(n[16]) ? n[16] : null,
-          esc2_rpm: Number.isFinite(n[17]) ? n[17] : null,
-          esc3_rpm: Number.isFinite(n[18]) ? n[18] : null,
-          esc4_rpm: Number.isFinite(n[19]) ? n[19] : null,
-        };
+            humidity: data[8], // Map pressure to humidity slot
+          };
 
-        console.log(`Partial telemetry emitted (${n.length} numbers)`);
-        io.emit("telemetry_update", telemetry);
-        // Cache minimal ota record if present
-        try {
-          if (Number.isFinite(n[0])) {
-            const timestamp = new Date();
-            addToCache('ota', { value: n[0], voltage: Number.isFinite(n[1]) ? n[1] : 0, timestamp });
-          }
-        } catch (e) {
-          console.error("Cache save failed for partial packet:", e.message);
+          // Emit legacy format for backwards compatibility
+          io.emit("legacy_telemetry", legacyData);
         }
-        return;
       }
 
-      // If we couldn't recover, dump the bad packet for offline analysis and log concise info
-      dumpBadPacket(`expected_${EXPECTED_PARTS}_got_${parts.length}`);
-      console.log(`Wrong format - Expected ${EXPECTED_PARTS} values, got ${parts.length}. Data (trimmed): ${rawLine.slice(0,200)}`);
+    } catch (error) {
+      console.error('Error parsing serial data:', error.message);
+      // Log bad packet for debugging
+      try {
+        const dump = `${new Date().toISOString()} error=${error.message} len=${rawLine.length} data=${rawLine.replace(/\r?\n/g, "\\n")}\n`;
+        fs.appendFile("serial_bad_packets.log", dump, () => { });
+      } catch (e) { /* ignore */ }
     }
   }
 
@@ -695,5 +569,5 @@ export default function startSerial(io) {
   };
 
 
-  
+
 }

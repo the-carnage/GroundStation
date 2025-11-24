@@ -1803,3 +1803,774 @@
 2025-11-21T11:23:56.698Z reason=expected_20_got_1 len=16 data=Touch sensor: 0
 2025-11-21T11:23:56.796Z reason=expected_20_got_1 len=16 data=Touch sensor: 0
 2025-11-21T11:23:56.894Z reason=expected_20_got_1 len=16 data=Touch sensor: 0
+2025-11-21T13:36:29.846Z reason=expected_20_got_1 len=20 data=BMP280 initialized!
+2025-11-21T13:36:29.869Z reason=expected_20_got_1 len=23 data=Temperature = 27.97 °C
+2025-11-21T13:36:29.894Z reason=expected_20_got_1 len=22 data=Pressure = 946.87 hPa
+2025-11-21T13:36:29.922Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.89 m
+2025-11-21T13:36:29.951Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:30.909Z reason=expected_20_got_1 len=23 data=Temperature = 27.97 °C
+2025-11-21T13:36:30.934Z reason=expected_20_got_1 len=22 data=Pressure = 946.88 hPa
+2025-11-21T13:36:30.963Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.84 m
+2025-11-21T13:36:30.987Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:31.946Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:31.971Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:31.999Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.54 m
+2025-11-21T13:36:32.028Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:32.986Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:33.007Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:36:33.035Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.77 m
+2025-11-21T13:36:33.064Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:34.022Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:34.047Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:36:34.075Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.38 m
+2025-11-21T13:36:34.100Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:35.059Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:35.083Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:35.112Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:36:35.141Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:36.312Z reason=expected_20_got_1 len=20 data=BMP280 initialized!
+2025-11-21T13:36:36.337Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:36.361Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:36.390Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.61 m
+2025-11-21T13:36:36.418Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:37.377Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:37.402Z reason=expected_20_got_1 len=22 data=Pressure = 946.96 hPa
+2025-11-21T13:36:37.430Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.14 m
+2025-11-21T13:36:37.455Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:38.413Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:38.438Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:36:38.466Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.20 m
+2025-11-21T13:36:38.495Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:39.454Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:39.474Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:39.503Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.49 m
+2025-11-21T13:36:39.531Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:40.490Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:40.514Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:40.543Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:36:40.568Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:41.526Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:41.550Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:36:41.579Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.40 m
+2025-11-21T13:36:41.608Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:42.566Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:42.587Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:42.619Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.57 m
+2025-11-21T13:36:42.644Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:43.603Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:43.627Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:36:43.656Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.40 m
+2025-11-21T13:36:43.689Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:44.639Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:44.664Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:44.692Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.45 m
+2025-11-21T13:36:44.721Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:45.679Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:45.700Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:45.732Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.51 m
+2025-11-21T13:36:45.757Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:46.715Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:46.742Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:46.768Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.49 m
+2025-11-21T13:36:46.797Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:47.752Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:47.776Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:47.805Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:36:47.833Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:48.792Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:48.816Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:48.845Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:36:48.870Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:49.828Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:36:49.854Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:36:49.881Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.77 m
+2025-11-21T13:36:49.910Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:50.865Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:50.889Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:50.918Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:36:50.946Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:51.905Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:51.929Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:36:51.958Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.73 m
+2025-11-21T13:36:51.983Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:52.941Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:52.969Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:36:52.994Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.75 m
+2025-11-21T13:36:53.023Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:53.977Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:54.002Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:36:54.030Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.35 m
+2025-11-21T13:36:54.059Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:55.018Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:36:55.042Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:55.071Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.57 m
+2025-11-21T13:36:55.096Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:56.054Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:56.079Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:36:56.107Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.66 m
+2025-11-21T13:36:56.136Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:57.094Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:57.117Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:36:57.144Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.52 m
+2025-11-21T13:36:57.172Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:58.131Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:58.157Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:58.184Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.56 m
+2025-11-21T13:36:58.208Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:36:59.167Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:36:59.192Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:36:59.220Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.60 m
+2025-11-21T13:36:59.249Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:00.208Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:00.228Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:00.260Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:37:00.285Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:01.244Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:01.268Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:01.297Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.56 m
+2025-11-21T13:37:01.321Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:02.280Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:02.304Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:02.333Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:37:02.362Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:03.320Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:03.340Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:03.373Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.58 m
+2025-11-21T13:37:03.398Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:04.356Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:04.381Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:04.410Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.49 m
+2025-11-21T13:37:04.438Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:05.393Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:05.417Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:05.446Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.63 m
+2025-11-21T13:37:05.474Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:06.433Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:06.458Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:06.487Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:37:06.511Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:07.469Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:07.494Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:07.523Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.34 m
+2025-11-21T13:37:07.551Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:08.505Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:08.530Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:08.559Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.49 m
+2025-11-21T13:37:08.587Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:09.546Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:09.570Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:09.599Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:37:09.623Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:10.582Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:10.606Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:10.635Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:37:10.664Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:11.618Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:11.643Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:11.671Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.67 m
+2025-11-21T13:37:11.700Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:12.662Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:12.683Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:12.712Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.37 m
+2025-11-21T13:37:12.737Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:13.695Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:13.723Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:13.748Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:37:13.777Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:14.735Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:14.756Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:14.784Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.42 m
+2025-11-21T13:37:14.813Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:15.772Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:15.796Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:15.825Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:37:15.849Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:16.808Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:16.834Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:16.861Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.45 m
+2025-11-21T13:37:16.890Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:17.848Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:17.869Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:17.901Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:37:17.926Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:18.885Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:18.909Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:18.937Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.60 m
+2025-11-21T13:37:18.962Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:19.921Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:19.945Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:19.974Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.65 m
+2025-11-21T13:37:20.002Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:20.961Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:20.981Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:21.014Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.37 m
+2025-11-21T13:37:21.039Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:21.997Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:22.022Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:22.050Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:37:22.079Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:23.033Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:23.058Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:23.087Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:37:23.116Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:24.074Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:24.098Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:24.127Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.49 m
+2025-11-21T13:37:24.151Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:25.110Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:25.134Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:25.163Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.33 m
+2025-11-21T13:37:25.192Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:26.146Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:26.171Z reason=expected_20_got_1 len=22 data=Pressure = 946.84 hPa
+2025-11-21T13:37:26.199Z reason=expected_20_got_1 len=27 data=Approx Altitude = 568.20 m
+2025-11-21T13:37:26.228Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:27.187Z reason=expected_20_got_1 len=23 data=Temperature = 28.01 °C
+2025-11-21T13:37:27.214Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:27.240Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.42 m
+2025-11-21T13:37:27.264Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:28.223Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:28.248Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:37:28.276Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.71 m
+2025-11-21T13:37:28.305Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:29.259Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:29.284Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:29.312Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.47 m
+2025-11-21T13:37:29.341Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:30.300Z reason=expected_20_got_1 len=23 data=Temperature = 28.00 °C
+2025-11-21T13:37:30.327Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:30.353Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.63 m
+2025-11-21T13:37:30.377Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:31.336Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:31.360Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:31.389Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.70 m
+2025-11-21T13:37:31.418Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:32.377Z reason=expected_20_got_1 len=23 data=Temperature = 27.99 °C
+2025-11-21T13:37:32.397Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:32.425Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:37:32.454Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:33.413Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:37:33.437Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:33.466Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:37:33.490Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:34.449Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:37:34.473Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:34.502Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:37:34.531Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:35.489Z reason=expected_20_got_1 len=23 data=Temperature = 27.98 °C
+2025-11-21T13:37:35.509Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:35.542Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.54 m
+2025-11-21T13:37:35.567Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:36.525Z reason=expected_20_got_1 len=23 data=Temperature = 27.97 °C
+2025-11-21T13:37:36.550Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:37:36.579Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.74 m
+2025-11-21T13:37:36.603Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:37.562Z reason=expected_20_got_1 len=23 data=Temperature = 27.97 °C
+2025-11-21T13:37:37.586Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:37.615Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.59 m
+2025-11-21T13:37:37.643Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:38.602Z reason=expected_20_got_1 len=23 data=Temperature = 27.97 °C
+2025-11-21T13:37:38.622Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:38.655Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.54 m
+2025-11-21T13:37:38.680Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:39.638Z reason=expected_20_got_1 len=23 data=Temperature = 27.96 °C
+2025-11-21T13:37:39.663Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:39.691Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:37:39.720Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:40.674Z reason=expected_20_got_1 len=23 data=Temperature = 27.95 °C
+2025-11-21T13:37:40.699Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:40.728Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.59 m
+2025-11-21T13:37:40.756Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:41.715Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:41.739Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:41.768Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.47 m
+2025-11-21T13:37:41.792Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:42.751Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:42.775Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:42.804Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.52 m
+2025-11-21T13:37:42.833Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:43.787Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:43.812Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:43.840Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:37:43.869Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:44.828Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:44.854Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:44.881Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.52 m
+2025-11-21T13:37:44.912Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:45.864Z reason=expected_20_got_1 len=23 data=Temperature = 27.95 °C
+2025-11-21T13:37:45.888Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:45.919Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.58 m
+2025-11-21T13:37:45.946Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:46.900Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:46.926Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:46.953Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.57 m
+2025-11-21T13:37:46.982Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:47.942Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:47.967Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:47.994Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.65 m
+2025-11-21T13:37:48.018Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:48.977Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:49.001Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:49.030Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:37:49.058Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:50.017Z reason=expected_20_got_1 len=23 data=Temperature = 27.94 °C
+2025-11-21T13:37:50.037Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:50.066Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.59 m
+2025-11-21T13:37:50.095Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:51.054Z reason=expected_20_got_1 len=23 data=Temperature = 27.93 °C
+2025-11-21T13:37:51.078Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:51.107Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.62 m
+2025-11-21T13:37:51.131Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:52.090Z reason=expected_20_got_1 len=23 data=Temperature = 27.93 °C
+2025-11-21T13:37:52.114Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:37:52.143Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:37:52.171Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:53.130Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:53.150Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:53.183Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.58 m
+2025-11-21T13:37:53.208Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:54.166Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:54.191Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:54.219Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.45 m
+2025-11-21T13:37:54.244Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:55.204Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:55.227Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:37:55.256Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.64 m
+2025-11-21T13:37:55.284Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:56.243Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:56.263Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:37:56.296Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.56 m
+2025-11-21T13:37:56.320Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:57.279Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:57.304Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:37:57.332Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:37:57.361Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:58.315Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:37:58.342Z reason=expected_20_got_1 len=22 data=Pressure = 946.88 hPa
+2025-11-21T13:37:58.369Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.80 m
+2025-11-21T13:37:58.397Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:37:59.356Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:37:59.380Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:37:59.409Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:37:59.433Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:00.392Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:38:00.416Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:00.445Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.53 m
+2025-11-21T13:38:00.474Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:01.428Z reason=expected_20_got_1 len=23 data=Temperature = 27.92 °C
+2025-11-21T13:38:01.456Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:01.481Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.38 m
+2025-11-21T13:38:01.510Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:02.469Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:02.493Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:02.522Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.68 m
+2025-11-21T13:38:02.546Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:03.505Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:03.530Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:03.558Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.56 m
+2025-11-21T13:38:03.586Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:04.541Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:04.565Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:04.594Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.53 m
+2025-11-21T13:38:04.623Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:05.581Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:05.606Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:05.634Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.37 m
+2025-11-21T13:38:05.659Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:06.617Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:06.642Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:06.671Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.35 m
+2025-11-21T13:38:06.699Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:07.658Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:07.678Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:07.707Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:38:07.736Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:08.694Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:08.721Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:08.748Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.50 m
+2025-11-21T13:38:08.772Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:09.731Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:09.755Z reason=expected_20_got_1 len=22 data=Pressure = 946.99 hPa
+2025-11-21T13:38:09.784Z reason=expected_20_got_1 len=27 data=Approx Altitude = 566.84 m
+2025-11-21T13:38:09.813Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:10.771Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:10.791Z reason=expected_20_got_1 len=22 data=Pressure = 946.89 hPa
+2025-11-21T13:38:10.824Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.75 m
+2025-11-21T13:38:10.849Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:11.807Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:11.831Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:11.860Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.54 m
+2025-11-21T13:38:11.885Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:12.843Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:12.868Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:38:12.896Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.67 m
+2025-11-21T13:38:12.925Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:13.884Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:13.904Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:13.937Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.46 m
+2025-11-21T13:38:13.961Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:14.920Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:14.945Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:14.973Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:38:15.002Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:15.956Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:15.981Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:16.010Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.38 m
+2025-11-21T13:38:16.038Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:16.997Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:17.021Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:17.050Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:38:17.074Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:18.033Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:18.057Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:18.086Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:38:18.115Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:19.069Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:19.093Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:19.122Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.46 m
+2025-11-21T13:38:19.151Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:20.109Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:20.134Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:20.162Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.35 m
+2025-11-21T13:38:20.187Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:21.146Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:21.170Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:21.199Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.60 m
+2025-11-21T13:38:21.228Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:22.182Z reason=expected_20_got_1 len=23 data=Temperature = 27.91 °C
+2025-11-21T13:38:22.210Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:22.235Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:38:22.264Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:23.222Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:23.247Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:23.275Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.24 m
+2025-11-21T13:38:23.300Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:24.258Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:24.283Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:24.312Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:38:24.341Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:25.299Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:25.319Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:25.348Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.46 m
+2025-11-21T13:38:25.376Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:26.335Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:26.360Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:26.388Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:38:26.413Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:27.371Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:27.396Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:27.425Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.23 m
+2025-11-21T13:38:27.453Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:28.412Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:28.432Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:28.465Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:38:28.489Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:29.448Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:29.472Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:29.501Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.27 m
+2025-11-21T13:38:29.526Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:30.484Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:30.509Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:30.537Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.20 m
+2025-11-21T13:38:30.566Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:31.525Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:31.545Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:31.578Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:38:31.602Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:32.561Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:32.586Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:32.615Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.20 m
+2025-11-21T13:38:32.643Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:33.597Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:33.622Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:33.650Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.37 m
+2025-11-21T13:38:33.679Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:34.638Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:34.662Z reason=expected_20_got_1 len=22 data=Pressure = 946.96 hPa
+2025-11-21T13:38:34.691Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.16 m
+2025-11-21T13:38:34.715Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:35.674Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:35.698Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:35.727Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.18 m
+2025-11-21T13:38:35.755Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:36.710Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:36.736Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:36.763Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.26 m
+2025-11-21T13:38:36.792Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:37.750Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:38:37.775Z reason=expected_20_got_1 len=22 data=Pressure = 946.96 hPa
+2025-11-21T13:38:37.804Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.14 m
+2025-11-21T13:38:37.828Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:38.787Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:38.811Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:38.840Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.24 m
+2025-11-21T13:38:38.868Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:39.823Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:39.847Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:39.876Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.35 m
+2025-11-21T13:38:39.905Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:40.863Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:40.889Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:40.916Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.19 m
+2025-11-21T13:38:40.941Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:41.900Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:41.924Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:41.952Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.28 m
+2025-11-21T13:38:41.981Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:42.940Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:42.960Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:42.989Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.27 m
+2025-11-21T13:38:43.017Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:43.978Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:44.001Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:44.029Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:38:44.054Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:45.012Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:45.037Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:45.065Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.18 m
+2025-11-21T13:38:45.094Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:46.052Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:38:46.073Z reason=expected_20_got_1 len=22 data=Pressure = 946.97 hPa
+2025-11-21T13:38:46.106Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.04 m
+2025-11-21T13:38:46.130Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:47.089Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:47.114Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:47.142Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:38:47.166Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:48.125Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:48.151Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:48.178Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.58 m
+2025-11-21T13:38:48.207Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:49.165Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:49.186Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:38:49.219Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.23 m
+2025-11-21T13:38:49.243Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:50.202Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:50.226Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:50.255Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:38:50.283Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:51.238Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:51.263Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:51.291Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.43 m
+2025-11-21T13:38:51.320Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:52.278Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:52.303Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:52.331Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.42 m
+2025-11-21T13:38:52.356Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:53.315Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:53.339Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:38:53.368Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.53 m
+2025-11-21T13:38:53.396Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:54.351Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:54.375Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:54.404Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:38:54.433Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:55.391Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:38:55.415Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:55.444Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.38 m
+2025-11-21T13:38:55.469Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:56.428Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:38:56.458Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:56.480Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.33 m
+2025-11-21T13:38:56.509Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:57.463Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:38:57.488Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:38:57.517Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.34 m
+2025-11-21T13:38:57.545Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:58.504Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:38:58.529Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:38:58.557Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:38:58.582Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:38:59.540Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:38:59.565Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:38:59.594Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.52 m
+2025-11-21T13:38:59.622Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:00.581Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:00.601Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:00.630Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.41 m
+2025-11-21T13:39:00.658Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:01.617Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:01.641Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:01.670Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:39:01.696Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:02.653Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:02.679Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:02.706Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.43 m
+2025-11-21T13:39:02.735Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:03.693Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:03.716Z reason=expected_20_got_1 len=22 data=Pressure = 946.90 hPa
+2025-11-21T13:39:03.747Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.62 m
+2025-11-21T13:39:03.771Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:04.730Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:04.754Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:04.783Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.20 m
+2025-11-21T13:39:04.807Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:05.766Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:05.792Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:39:05.819Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.54 m
+2025-11-21T13:39:05.848Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:06.806Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:06.827Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:06.859Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.47 m
+2025-11-21T13:39:06.884Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:07.842Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:07.867Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:07.896Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.20 m
+2025-11-21T13:39:07.924Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:08.879Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:08.903Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:08.932Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.19 m
+2025-11-21T13:39:08.961Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:09.920Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:09.944Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:39:09.972Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.59 m
+2025-11-21T13:39:09.997Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:10.955Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:10.980Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:11.011Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.38 m
+2025-11-21T13:39:11.037Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:11.992Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:12.017Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:12.045Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:39:12.073Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:13.032Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:13.057Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:13.085Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.36 m
+2025-11-21T13:39:13.110Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:14.068Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:14.093Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:14.121Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.35 m
+2025-11-21T13:39:14.150Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:15.105Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:15.129Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:15.158Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.45 m
+2025-11-21T13:39:15.186Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:16.145Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:16.169Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:16.198Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:39:16.223Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:17.181Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:17.206Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:17.234Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.43 m
+2025-11-21T13:39:17.263Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:18.221Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:18.242Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:18.270Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.44 m
+2025-11-21T13:39:18.299Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:19.257Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:19.282Z reason=expected_20_got_1 len=22 data=Pressure = 946.97 hPa
+2025-11-21T13:39:19.311Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.08 m
+2025-11-21T13:39:19.335Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:20.294Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:20.319Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:20.347Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.25 m
+2025-11-21T13:39:20.376Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:21.335Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:21.355Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:21.387Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:39:21.412Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:22.371Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:22.395Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:22.424Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.31 m
+2025-11-21T13:39:22.448Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:23.407Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:23.431Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:23.460Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.26 m
+2025-11-21T13:39:23.489Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:24.447Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:24.468Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:24.500Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:39:24.525Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:25.483Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:39:25.508Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:25.537Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:39:25.565Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:26.520Z reason=expected_20_got_1 len=23 data=Temperature = 27.90 °C
+2025-11-21T13:39:26.545Z reason=expected_20_got_1 len=22 data=Pressure = 946.97 hPa
+2025-11-21T13:39:26.573Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.05 m
+2025-11-21T13:39:26.602Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:27.560Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:27.584Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:27.613Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.51 m
+2025-11-21T13:39:27.638Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:28.596Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:28.621Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:28.649Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.26 m
+2025-11-21T13:39:28.678Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:29.633Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:29.658Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:39:29.686Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.56 m
+2025-11-21T13:39:29.714Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:30.677Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:30.699Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:30.726Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.32 m
+2025-11-21T13:39:30.751Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:31.709Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:31.736Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:31.762Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.34 m
+2025-11-21T13:39:31.791Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:32.745Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:32.771Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:32.799Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.30 m
+2025-11-21T13:39:32.827Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:33.786Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:33.810Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:33.839Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.40 m
+2025-11-21T13:39:33.863Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:34.822Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:34.847Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:34.875Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.28 m
+2025-11-21T13:39:34.904Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:35.862Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:39:35.886Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:35.911Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:39:35.940Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:36.898Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:39:36.923Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:36.952Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.45 m
+2025-11-21T13:39:36.976Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:37.935Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:39:37.959Z reason=expected_20_got_1 len=22 data=Pressure = 946.92 hPa
+2025-11-21T13:39:37.988Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.48 m
+2025-11-21T13:39:38.017Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:38.975Z reason=expected_20_got_1 len=23 data=Temperature = 27.87 °C
+2025-11-21T13:39:38.995Z reason=expected_20_got_1 len=22 data=Pressure = 946.91 hPa
+2025-11-21T13:39:39.028Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.60 m
+2025-11-21T13:39:39.053Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:40.011Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:40.038Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:40.065Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.37 m
+2025-11-21T13:39:40.089Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:41.048Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:41.072Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:41.101Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.40 m
+2025-11-21T13:39:41.129Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:42.088Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:42.109Z reason=expected_20_got_1 len=22 data=Pressure = 946.97 hPa
+2025-11-21T13:39:42.141Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.08 m
+2025-11-21T13:39:42.166Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:43.124Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:43.149Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:43.178Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.40 m
+2025-11-21T13:39:43.206Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:44.160Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:44.185Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:44.214Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.29 m
+2025-11-21T13:39:44.242Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:45.201Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:45.226Z reason=expected_20_got_1 len=22 data=Pressure = 946.95 hPa
+2025-11-21T13:39:45.254Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.25 m
+2025-11-21T13:39:45.278Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:46.237Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:46.262Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:46.290Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.30 m
+2025-11-21T13:39:46.319Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:47.273Z reason=expected_20_got_1 len=23 data=Temperature = 27.89 °C
+2025-11-21T13:39:47.298Z reason=expected_20_got_1 len=22 data=Pressure = 946.94 hPa
+2025-11-21T13:39:47.326Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.30 m
+2025-11-21T13:39:47.355Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-21T13:39:48.314Z reason=expected_20_got_1 len=23 data=Temperature = 27.88 °C
+2025-11-21T13:39:48.338Z reason=expected_20_got_1 len=22 data=Pressure = 946.93 hPa
+2025-11-21T13:39:48.367Z reason=expected_20_got_1 len=27 data=Approx Altitude = 567.39 m
+2025-11-21T13:39:48.391Z reason=expected_20_got_1 len=25 data=------------------------
+2025-11-23T14:16:58.093Z reason=expected_20_got_1 len=23 data=Initializing BMP280...

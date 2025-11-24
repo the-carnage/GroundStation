@@ -25,26 +25,20 @@ export function getPortSnapshot() {
   return { ports: [...state.ports], error: state.error };
 }
 
+// Perform initial scan only
+export async function performInitialScan() {
+  console.log('🔍 Performing initial port scan...');
+  return await refreshPorts();
+}
+
+// Scan ports on demand (for manual button click)
+export async function scanPortsOnDemand() {
+  console.log('🔍 Manual port scan requested...');
+  return await refreshPorts();
+}
+
+// Keep for backward compatibility but make it do nothing
 export function startPortMonitor({ intervalMs = 5000, onUpdate } = {}) {
-  if (monitorHandle) {
-    return () => {
-      clearInterval(monitorHandle);
-      monitorHandle = null;
-    };
-  }
-
-  const runner = async () => {
-    const snapshot = await refreshPorts();
-    if (typeof onUpdate === "function") {
-      onUpdate(snapshot);
-    }
-  };
-
-  runner();
-  monitorHandle = setInterval(runner, intervalMs);
-
-  return () => {
-    clearInterval(monitorHandle);
-    monitorHandle = null;
-  };
+  console.log('⚠️  Continuous port monitoring disabled. Use manual scan instead.');
+  return () => {};
 }

@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ground Station - Flexible Data Visualization</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+
+      --bg-primary: hsl(240, 15%, 6%);
+      --bg-secondary: hsl(240, 12%, 10%);
+      --bg-card: hsl(240, 10%, 14%);
+      --bg-elevated: hsl(240, 8%, 18%);
+      
+      --text-primary: hsl(0, 0%, 95%);
+      --text-secondary: hsl(0, 0%, 65%);
+      --text-muted: hsl(0, 0%, 45%);
+      
+      --accent-cyan: hsl(187, 100%, 50%);
+      --accent-purple: hsl(271, 86%, 60%);
+      --accent-pink: hsl(340, 100%, 50%);
+      --accent-blue: hsl(217, 91%, 60%);
+      
+      --success: hsl(142, 76%, 50%);
+      --warning: hsl(48, 100%, 67%);
+      --error: hsl(348, 100%, 61%);
+      
+    
+      --border-color: hsl(240, 5%, 22%);
+      --glass-bg: rgba(255, 255, 255, 0.05);
+      --glass-border: rgba(255, 255, 255, 0.1);
+      
+      
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+      --shadow-glow-cyan: 0 0 20px rgba(0, 217, 255, 0.3);
+      --shadow-glow-purple: 0 0 20px rgba(178, 75, 243, 0.3);
+      
+      /* Typography */
+      --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+      
+      /* Spacing */
+      --spacing-unit: 8px;
+    }
+
+    body {
+      font-family: var(--font-primary);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    /* App Layout */
+    .app-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Top Navigation */
+    .top-nav {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border-color);
+      padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 3);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: var(--shadow-md);
+      backdrop-filter: blur(10px);
+    }
+
+    .app-logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: -0.5px;
+    }
+
+    .view-tabs {
+      display: flex;
+      gap: calc(var(--spacing-unit) * 1);
+      background: var(--bg-secondary);
+      padding: calc(var(--spacing-unit) * 0.5);
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .tab-button {
+      padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 3);
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      cursor: pointer;
+      border-radius: 8px;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      font-family: var(--font-primary);
+    }
+
+    .tab-button:hover {
+      background: var(--glass-bg);
+      color: var(--text-primary);
+    }
+
+    .tab-button.active {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      color: white;
+      box-shadow: var(--shadow-glow-cyan);
+    }
+
+    .connection-status {
+      display: flex;
+      align-items: center;
+      gap: calc(var(--spacing-unit) * 1.5);
+      padding: calc(var(--spacing-unit) * 1.5) calc(var(--spacing-unit) * 2.5);
+      background: var(--bg-secondary);
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    .status-indicator {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--error);
+      box-shadow: 0 0 10px currentColor;
+      animation: pulse-error 2s infinite;
+    }
+
+    .status-indicator.connected {
+      background: var(--success);
+      animation: pulse-success 2s infinite;
+    }
+
+    @keyframes pulse-success  {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+
+    @keyframes pulse-error {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .status-text {
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+
+    /* Main Content Area */
+    .main-content {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .view-container {
+      width: 100%;
+      height: 100%;
+      display: none;
+      overflow: auto;
+      padding: calc(var(--spacing-unit) * 3);
+    }
+
+    .view-container.active {
+      display: block;
+    }
+
+    /* Custom Scrollbar */
+    .view-container::-webkit-scrollbar {
+      width: 10px;
+      height: 10px;
+    }
+
+    .view-container::-webkit-scrollbar-track {
+      background: var(--bg-secondary);
+    }
+
+    .view-container::-webkit-scrollbar-thumb {
+      background: var(--accent-purple);
+      border-radius: 5px;
+    }
+
+    .view-container::-webkit-scrollbar-thumb:hover {
+      background: var(--accent-cyan);
+    }
+
+    /* ============================================
+       SERIAL MONITOR VIEW
+    ============================================ */
+    .serial-monitor {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .serial-terminal {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: calc(var(--spacing-unit) * 3);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: calc(var(--spacing-unit) * 3);
+    }
+
+    .terminal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: calc(var(--spacing-unit) * 2);
+      padding-bottom: calc(var(--spacing-unit) * 2);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .terminal-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .terminal-controls {
+      display: flex;
+      gap: calc(var(--spacing-unit) * 1.5);
+    }
+
+    .terminal-button {
+      padding: calc(var(--spacing-unit) * 1) calc(var(--spacing-unit) * 2);
+      background: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      color: var(--text-primary);
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: all 0.2s;
+      font-family: var(--font-primary);
+    }
+
+    .terminal-button:hover {
+      background: var(--bg-secondary);
+      border-color: var(--accent-cyan);
+      transform: translateY(-1px);
+    }
+
+    .terminal-output {
+      font-family: var(--font-mono);
+      font-size: 0.875rem;
+      background: var(--bg-secondary);
+      padding: calc(var(--spacing-unit) * 2);
+      border-radius: 8px;
+      height: 400px;
+      overflow-y: auto;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .terminal-line {
+      margin-bottom: calc(var(--spacing-unit) * 0.5);
+      display: flex;
+      gap: calc(var(--spacing-unit) * 2);
+    }
+
+    .terminal-timestamp {
+      color: var(--text-muted);
+      user-select: none;
+    }
+
+    .terminal-data {
+      color: var(--accent-cyan);
+      flex: 1;
+      word-break: break-all;
+    }
+
+    /* ============================================
+       CONFIGURATION VIEW
+    ============================================ */
+    .config-view {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .config-section {
+      margin-bottom: calc(var(--spacing-unit) * 3);
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .key-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: calc(var(--spacing-unit) * 2.5);
+    }
+
+    .key-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: calc(var(--spacing-unit) * 3);
+      box-shadow: var(--shadow-md);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .key-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--accent-purple);
+    }
+
+    .key-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+
+    .key-name {
+      font-family: var(--font-mono);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent-cyan);
+    }
+
+    .key-type {
+      font-size: 0.75rem;
+      padding: calc(var(--spacing-unit) * 0.5) calc(var(--spacing-unit) * 1.5);
+      background: var(--bg-elevated);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .config-field {
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+
+    .config-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: calc(var(--spacing-unit) * 1);
+    }
+
+    .config-input,
+    .config-select {
+      width: 100%;
+      padding: calc(var(--spacing-unit) * 1.5);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.875rem;
+      font-family: var(--font-primary);
+      transition: all 0.2s;
+    }
+
+    .config-input:focus,
+    .config-select:focus {
+      outline: none;
+      border-color: var(--accent-purple);
+      box-shadow: 0 0 0 3px rgba(178, 75, 243, 0.1);
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 26px;
+    }
+
+    .toggle-switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .toggle-slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: var(--bg-elevated);
+      border: 1px solid var(--border-color);
+      transition: 0.3s;
+      border-radius: 26px;
+    }
+
+    .toggle-slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: var(--text-muted);
+      transition: 0.3s;
+      border-radius: 50%;
+    }
+
+    input:checked + .toggle-slider {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      border-color: transparent;
+    }
+
+    input:checked + .toggle-slider:before {
+      transform: translateX(24px);
+      background-color: white;
+    }
+
+    .save-config-button {
+      width: 100%;
+      padding: calc(var(--spacing-unit) * 2);
+      background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+      border: none;
+      border-radius: 12px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-glow-purple);
+      transition: all 0.3s;
+      font-family: var(--font-primary);
+    }
+
+    .save-config-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(178, 75, 243, 0.4);
+    }
+
+    /* ============================================
+       DASHBOARD VIEW
+    ============================================ */
+    .dashboard-view {
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+
+    .widget-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: calc(var(--spacing-unit) * 3);
+    }
+
+    .widget {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: calc(var(--spacing-unit) * 3);
+      box-shadow: var(--shadow-md);
+      transition: all 0.3s;
+    }
+
+    .widget:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .widget-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+
+    .widget-title {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .widget-value {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: calc(var(--spacing-unit) * 1);
+    }
+
+    .widget-unit {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .widget-chart {
+      height: 200px;
+      margin-top: calc(var(--spacing-unit) * 2);
+    }
+
+    /* ============================================
+       SETTINGS VIEW
+    ============================================ */
+    .settings-view {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .settings-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: calc(var(--spacing-unit) * 4);
+      box-shadow: var(--shadow-lg);
+      margin-bottom: calc(var(--spacing-unit) * 3);
+    }
+
+    .settings-card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: calc(var(--spacing-unit) * 3);
+      color: var(--text-primary);
+    }
+
+    .form-group {
+      margin-bottom: calc(var(--spacing-unit) * 3);
+    }
+
+    .form-label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: calc(var(--spacing-unit) * 1);
+    }
+
+    .form-input,
+    .form-select {
+      width: 100%;
+      padding: calc(var(--spacing-unit) * 1.5);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.875rem;
+      font-family: var(--font-primary);
+    }
+
+    .form-input:focus,
+    .form-select:focus {
+      outline: none;
+      border-color: var(--accent-cyan);
+      box-shadow: 0 0 0 3px rgba(0, 217, 255, 0.1);
+    }
+
+    .form-button {
+      padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 4);
+      background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-glow-cyan);
+      transition: all 0.3s;
+      font-family: var(--font-primary);
+    }
+
+    .form-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 217, 255, 0.4);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: calc(var(--spacing-unit) * 8);
+      color: var(--text-muted);
+    }
+
+    .empty-state-icon {
+      font-size: 4rem;
+      margin-bottom: calc(var(--spacing-unit) * 2);
+    }
+
+    .empty-state-text {
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    /* Utility Classes */
+    .hidden {
+      display: none !important;
+    }
+
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 4px solid var(--bg-elevated);
+      border-top: 4px solid var(--accent-cyan);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Top Navigation -->
+    <div class="top-nav">
+      <div class="app-logo">⚡ Ground Station</div>
+      
+      <div class="view-tabs">
+        <button class="tab-button active" data-view="serial-monitor">Serial Monitor</button>
+        <button class="tab-button" data-view="dashboard">Dashboard</button>
+        <button class="tab-button" data-view="configuration">Configuration</button>
+        <button class="tab-button" data-view="settings">Settings</button>
+      </div>
+      
+      <div class="connection-status">
+        <div class="status-indicator" id="connectionIndicator"></div>
+        <span class="status-text" id="connectionText">Disconnected</span>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Serial Monitor View -->
+      <div class="view-container active" id="serial-monitor">
+        <div class="serial-monitor">
+          <div class="serial-terminal">
+            <div class="terminal-header">
+              <div class="terminal-title">📡 Live Serial Data</div>
+              <div class="terminal-controls">
+                <button class="terminal-button" id="pauseButton">⏸️ Pause</button>
+                <button class="terminal-button" id="clearButton">🗑️ Clear</button>
+                <button class="terminal-button" id="copyButton">📋 Copy</button>
+              </div>
+            </div>
+            <div class="terminal-output" id="terminalOutput">
+              <div style="color: var(--text-muted); text-align: center; padding: 40px;">
+                Waiting for serial data...
+              </div>
+            </div>
+          </div>
+          
+          <div class="serial-terminal">
+            <div class="terminal-header">
+              <div class="terminal-title">🔍 Detected Data Schema</div>
+              <div class="terminal-controls">
+                <button class="terminal-button" id="refreshSchemaButton">🔄 Refresh</button>
+              </div>
+            </div>
+            <div class="terminal-output" id="schemaOutput" style="height: 200px;">
+              <div style="color: var(--text-muted); text-align: center; padding: 40px;">
+                No schema detected yet...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard View -->
+      <div class="view-container" id="dashboard">
+        <div class="dashboard-view">
+          <div class="section-header">
+            <div class="section-title">📊 Live Dashboard</div>
+            <button class="form-button" id="refreshDashboard">🔄 Refresh</button>
+          </div>
+          <div class="widget-grid" id="widgetGrid">
+            <div class="empty-state">
+              <div class="empty-state-icon">📊</div>
+              <div class="empty-state-text">Configure widgets from the Configuration tab</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Configuration View -->
+      <div class="view-container" id="configuration">
+        <div class="config-view">
+          <div class="section-header">
+            <div class="section-title">⚙️ Widget Configuration</div>
+            <div style="display: flex; gap: 12px;">
+              <button class="form-button" id="loadDefaultConfig">🔄 Load Defaults</button>
+              <button class="save-config-button" id="saveConfigButton" style="width: auto; padding: 12px 32px;">💾 Save Configuration</button>
+            </div>
+          </div>
+          <div class="key-grid" id="keyConfigGrid">
+            <div class="empty-state">
+              <div class="empty-state-icon">🔍</div>
+              <div class="empty-state-text">Waiting for data keys to be detected...</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Settings View -->
+      <div class="view-container" id="settings">
+        <div class="settings-view">
+          <div class="settings-card">
+            <div class="settings-card-title">🔌 Serial Port Settings</div>
+            
+            <div class="form-group">
+              <label class="form-label">Serial Port</label>
+              <select class="form-select" id="serialPortSelect">
+                <option>Loading ports...</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Baud Rate</label>
+              <select class="form-select" id="baudRateSelect">
+                <option value="9600">9600</option>
+                <option value="19200">19200</option>
+                <option value="38400">38400</option>
+                <option value="57600">57600</option>
+                <option value="115200">115200</option>
+              </select>
+            </div>
+
+            <button class="form-button" id="applySettings">✅ Apply Settings</button>
+          </div>
+
+          <div class="settings-card">
+            <div class="settings-card-title">📊 Data Format</div>
+            
+            <div class="form-group">
+              <label class="form-label">Detected Format</label>
+              <input type="text" class="form-input" id="detectedFormat" value="Auto-detecting..." readonly>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Total Keys Detected</label>
+              <input type="text" class="form-input" id="totalKeys" value="0" readonly>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ============================================
+    // Application State
+    // ============================================
+    const AppState = {
+      socket: null,
+      isConnected: false,
+      isPaused: false,
+      currentView: 'serial-monitor',
+      schema: [],
+      config: null,
+      latestData: {},
+      serialBuffer: [],
+      maxBufferSize: 500,
+      charts: {},
+    };
+
+    // ============================================
+    // Socket.io Connection
+    // ============================================
+    function initSocket() {
+      AppState.socket = io('http://localhost:5001');
+      
+      AppState.socket.on('connect', () => {
+        AppState.isConnected = true;
+        updateConnectionStatus(true);
+        console.log('✅ Connected to server');
+      });
+
+      AppState.socket.on('disconnect', () => {
+        AppState.isConnected = false;
+        updateConnectionStatus(false);
+        console.log('❌ Disconnected from server');
+      });
+
+      AppState.socket.on('serial_data', (data) => {
+        if (!AppState.isPaused) {
+          addToSerialMonitor(data);
+        }
+      });
+
+      AppState.socket.on('schema_update', (data) => {
+        AppState.schema = data.schema || [];
+        updateSchemaDisplay();
+        updateConfigurationPanel();
+        updateDataFormatDisplay(data.format);
+      });
+
+      AppState.socket.on('telemetry_update', (data) => {
+        AppState.latestData = data;
+        updateDashboardWidgets(data);
+      });
+
+      AppState.socket.on('serial_status', (data) => {
+        updateConnectionStatus(data.serial_connected);
+      });
+
+      AppState.socket.on('serial_port_list', (ports) => {
+        updatePortList(ports);
+      });
+    }
+
+    // ============================================
+    // View Management
+    // ============================================
+    function switchView(viewName) {
+      // Update tabs
+      document.querySelectorAll('.tab-button').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.dataset.view === viewName) {
+          btn.classList.add('active');
+        }
+      });
+
+      // Update view containers
+      document.querySelectorAll('.view-container').forEach(container => {
+        container.classList.remove('active');
+      });
+      document.getElementById(viewName).classList.add('active');
+
+      AppState.currentView = viewName;
+
+      // Refresh view-specific data
+      if (viewName === 'dashboard') {
+        loadDashboard();
+      } else if (viewName === 'configuration') {
+        loadConfiguration();
+      }
+    }
+
+    // ============================================
+    // Serial Monitor Functions
+    // ============================================
+    function addToSerialMonitor(data) {
+      const output = document.getElementById('terminalOutput');
+      
+      // Clear placeholder if present
+      if (output.children.length === 1 && output.children[0].style.textAlign === 'center') {
+        output.innerHTML = '';
+      }
+
+      const line = document.createElement('div');
+      line.className = 'terminal-line';
+      
+      const timestamp = new Date(data.timestamp).toLocaleTimeString();
+      line.innerHTML = `
+        <span class="terminal-timestamp">[${timestamp}]</span>
+        <span class="terminal-data">${data.raw}</span>
+      `;
+      
+      output.appendChild(line);
+
+      // Keep buffer size under control
+      AppState.serialBuffer.push(data);
+      if (AppState.serialBuffer.length > AppState.maxBufferSize) {
+        AppState.serialBuffer.shift();
+        if (output.firstChild) {
+          output.removeChild(output.firstChild);
+        }
+      }
+
+      // Auto-scroll to bottom
+      output.scrollTop = output.scrollHeight;
+    }
+
+    function updateSchemaDisplay() {
+      const schemaOutput = document.getElementById('schemaOutput');
+      
+      if (AppState.schema.length === 0) {
+        schemaOutput.innerHTML = `
+          <div style="color: var(--text-muted); text-align: center; padding: 40px;">
+            No schema detected yet...
+          </div>
+        `;
+        return;
+      }
+
+      schemaOutput.innerHTML = AppState.schema.map(field => `
+        <div class="terminal-line">
+          <span class="terminal-timestamp">${field.key}</span>
+          <span class="terminal-data" style="color: var(--accent-purple);">${field.type}</span>
+          <span class="terminal-data" style="color: var(--text-muted);">→ ${field.sampleValue}</span>
+        </div>
+      `).join('');
+    }
+
+    // ============================================
+    // Configuration Functions
+    // ============================================
+    function updateConfigurationPanel() {
+      const grid = document.getElementById('keyConfigGrid');
+      
+      if (AppState.schema.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">🔍</div>
+            <div class="empty-state-text">Waiting for data keys to be detected...</div>
+          </div>
+        `;
+        return;
+      }
+
+      // Load existing config or use defaults
+      loadConfigFromLocalStorage();
+
+      grid.innerHTML = AppState.schema.map(field => {
+        const fieldConfig = AppState.config?.widgets?.find(w => w.key === field.key) || {
+          key: field.key,
+          label: generateLabel(field.key),
+          enabled: true,
+          widgetType: 'value-card',
+          color: generateColor(field.key),
+          unit: '',
+        };
+
+        return `
+          <div class="key-card" data-key="${field.key}">
+            <div class="key-card-header">
+              <div class="key-name">${field.key}</div>
+              <div class="key-type">${field.type}</div>
+            </div>
+
+            <div class="config-field">
+              <label class="config-label">Display Label</label>
+              <input 
+                type="text" 
+                class="config-input" 
+                data-field="label" 
+                value="${fieldConfig.label}"
+              >
+            </div>
+
+            <div class="config-field">
+              <label class="config-label">Widget Type</label>
+              <select class="config-select" data-field="widgetType">
+                <option value="value-card" ${fieldConfig.widgetType === 'value-card' ? 'selected' : ''}>Value Card</option>
+                <option value="graph" ${fieldConfig.widgetType === 'graph' ? 'selected' : ''}>Line Graph</option>
+                <option value="gauge" ${fieldConfig.widgetType === 'gauge' ? 'selected' : ''}>Gauge</option>
+              </select>
+            </div>
+
+            <div class="config-field">
+              <label class="config-label">Unit</label>
+              <input 
+                type="text" 
+                class="config-input" 
+                data-field="unit" 
+                value="${fieldConfig.unit}"
+                placeholder="e.g., °C, V, RPM"
+              >
+            </div>
+
+            <div class="config-field">
+              <label class="config-label">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span>Enabled</span>
+                  <label class="toggle-switch">
+                    <input type="checkbox" data-field="enabled" ${fieldConfig.enabled ? 'checked' : ''}>
+                    <span class="toggle-slider"></span>
+                  </label>
+                </div>
+              </label>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function saveConfiguration() {
+      const cards = document.querySelectorAll('.key-card');
+      const widgets = [];
+
+      cards.forEach(card => {
+        const key = card.dataset.key;
+        const config = {
+          key,
+          label: card.querySelector('[data-field="label"]').value,
+          widgetType: card.querySelector('[data-field="widgetType"]').value,
+          unit: card.querySelector('[data-field="unit"]').value,
+          enabled: card.querySelector('[data-field="enabled"]').checked,
+          color: generateColor(key),
+        };
+        widgets.push(config);
+      });
+
+      AppState.config = {
+        version: '1.0',
+        widgets,
+        timestamp: new Date().toISOString(),
+      };
+
+      localStorage.setItem('groundstation_config', JSON.stringify(AppState.config));
+      
+      alert('✅ Configuration saved successfully!');
+      loadDashboard();
+    }
+
+    function loadConfigFromLocalStorage() {
+      const saved = localStorage.getItem('groundstation_config');
+      if (saved) {
+        AppState.config = JSON.parse(saved);
+      }
+    }
+
+    async function loadDefaultConfiguration() {
+      try {
+        const response = await fetch('http://localhost:5001/api/config/default');
+        const config = await response.json();
+        AppState.config = config;
+        localStorage.setItem('groundstation_config', JSON.stringify(config));
+        updateConfigurationPanel();
+        alert('✅ Default configuration loaded!');
+      } catch (error) {
+        console.error('Error loading default config:', error);
+      }
+    }
+
+    // ============================================
+    // Dashboard Functions
+    // ============================================
+    function loadDashboard() {
+      const grid = document.getElementById('widgetGrid');
+      loadConfigFromLocalStorage();
+
+      if (!AppState.config || AppState.config.widgets.length === 0) {
+        grid.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📊</div>
+            <div class="empty-state-text">Configure widgets from the Configuration tab</div>
+          </div>
+        `;
+        return;
+      }
+
+      const enabledWidgets = AppState.config.widgets.filter(w => w.enabled);
+      
+      grid.innerHTML = enabledWidgets.map(widget => {
+        if (widget.widgetType === 'value-card') {
+          return createValueCardHTML(widget);
+        } else if (widget.widgetType === 'graph') {
+          return createGraphWidgetHTML(widget);
+        } else if (widget.widgetType === 'gauge') {
+          return createGaugeWidgetHTML(widget);
+        }
+      }).join('');
+
+      // Initialize charts for graph widgets
+      setTimeout(() => {
+        enabledWidgets.forEach(widget => {
+          if (widget.widgetType === 'graph') {
+            initializeChart(widget);
+          }
+        });
+      }, 100);
+    }
+
+    function createValueCardHTML(widget) {
+      const value = AppState.latestData[widget.key] ?? '--';
+      return `
+        <div class="widget" id="widget-${widget.key}">
+          <div class="widget-header">
+            <div class="widget-title">${widget.label}</div>
+          </div>
+          <div class="widget-value" id="value-${widget.key}">${formatValue(value)}</div>
+          <div class="widget-unit">${widget.unit}</div>
+        </div>
+      `;
+    }
+
+    function createGraphWidgetHTML(widget) {
+      return `
+        <div class="widget" id="widget-${widget.key}">
+          <div class="widget-header">
+            <div class="widget-title">${widget.label}</div>
+          </div>
+          <div class="widget-chart">
+            <canvas id="chart-${widget.key}"></canvas>
+          </div>
+        </div>
+      `;
+    }
+
+    function createGaugeWidgetHTML(widget) {
+      return `
+        <div class="widget" id="widget-${widget.key}">
+          <div class="widget-header">
+            <div class="widget-title">${widget.label}</div>
+          </div>
+          <div class="widget-value" id="value-${widget.key}">--</div>
+          <div class="widget-unit">${widget.unit}</div>
+        </div>
+      `;
+    }
+
+    function initializeChart(widget) {
+      const canvas = document.getElementById(`chart-${widget.key}`);
+      if (!canvas) return;
+
+      const ctx = canvas.getContext('2d');
+      AppState.charts[widget.key] = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: [],
+          datasets: [{
+            label: widget.label,
+            data: [],
+            borderColor: widget.color || 'hsl(187, 100%, 50%)',
+            backgroundColor: (widget.color || 'hsl(187, 100%, 50%)').replace(')', ', 0.1)'),
+            borderWidth: 2,
+            tension: 0.4,
+            fill: true,
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false
+            }
+          },
+          scales: {
+            y: {
+              grid: {
+                color: 'rgba(255, 255, 255, 0.1)'
+              },
+              ticks: {
+                color: '#a6a6a6'
+              }
+            },
+            x: {
+              grid: {
+                color: 'rgba(255, 255, 255, 0.05)'
+              },
+              ticks: {
+                color: '#a6a6a6',
+                maxTicksLimit: 8
+              }
+            }
+          }
+        }
+      });
+    }
+
+    function updateDashboardWidgets(data) {
+      if (!AppState.config) return;
+
+      AppState.config.widgets.forEach(widget => {
+        if (!widget.enabled) return;
+
+        const value = data[widget.key];
+        if (value === undefined) return;
+
+        if (widget.widgetType === 'value-card' || widget.widgetType === 'gauge') {
+          const valueEl = document.getElementById(`value-${widget.key}`);
+          if (valueEl) {
+            valueEl.textContent = formatValue(value);
+          }
+        } else if (widget.widgetType === 'graph') {
+          const chart = AppState.charts[widget.key];
+          if (chart) {
+            const now = new Date().toLocaleTimeString();
+            chart.data.labels.push(now);
+            chart.data.datasets[0].data.push(value);
+
+            // Keep last 20 points
+            if (chart.data.labels.length > 20) {
+              chart.data.labels.shift();
+              chart.data.datasets[0].data.shift();
+            }
+
+            chart.update('none'); // Update without animation for performance
+          }
+        }
+      });
+    }
+
+    // ============================================
+    // Settings Functions
+    // ============================================
+    function updatePortList(ports) {
+      const select = document.getElementById('serialPortSelect');
+      select.innerHTML = ports.map(port => 
+        `<option value="${port.path}">${port.path}</option>`
+      ).join('');
+    }
+
+    function updateDataFormatDisplay(format) {
+      const formatInput = document.getElementById('detectedFormat');
+      if (formatInput) {
+        formatInput.value = format || 'unknown';
+      }
+
+      const totalKeysInput = document.getElementById('totalKeys');
+      if (totalKeysInput) {
+        totalKeysInput.value = AppState.schema.length;
+      }
+    }
+
+    // ============================================
+    // Utility Functions
+    // ============================================
+    function updateConnectionStatus(connected) {
+      const indicator = document.getElementById('connectionIndicator');
+      const text = document.getElementById('connectionText');
+      
+      if (connected) {
+        indicator.classList.add('connected');
+        text.textContent = 'Connected';
+      } else {
+        indicator.classList.remove('connected');
+        text.textContent = 'Disconnected';
+      }
+    }
+
+    function formatValue(value) {
+      if (typeof value === 'number') {
+        return value.toFixed(2);
+      }
+      return value;
+    }
+
+    function generateLabel(key) {
+      return key
+        .replace(/([A-Z])/g, ' $1')
+        .replace(/_/g, ' ')
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join(' ')
+        .trim();
+    }
+
+    function generateColor(key) {
+      const colors = [
+        'hsl(187, 100%, 50%)',  // Cyan
+        'hsl(271, 86%, 60%)',   // Purple
+        'hsl(340, 100%, 50%)',  // Pink
+        'hsl(142, 76%, 50%)',   // Green
+        'hsl(48, 100%, 67%)',   // Yellow
+        'hsl(217, 91%, 60%)',   // Blue
+      ];
+      
+      let hash = 0;
+      for (let i = 0; i < key.length; i++) {
+        hash = key.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      
+      return colors[Math.abs(hash) % colors.length];
+    }
+
+    async function loadConfiguration() {
+      try {
+        const response = await fetch('http://localhost:5001/api/schema');
+        const data = await response.json();
+        AppState.schema = data.schema || [];
+        updateConfigurationPanel();
+      } catch (error) {
+        console.error('Error loading schema:', error);
+      }
+    }
+
+    // ============================================
+    // Event Listeners
+    // ============================================
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize Socket.io
+      initSocket();
+
+      // Tab Navigation
+      document.querySelectorAll('.tab-button').forEach(button => {
+        button.addEventListener('click', () => {
+          switchView(button.dataset.view);
+        });
+      });
+
+      // Serial Monitor Controls
+      document.getElementById('pauseButton')?.addEventListener('click', () => {
+        AppState.isPaused = !AppState.isPaused;
+        const btn = document.getElementById('pauseButton');
+        btn.textContent = AppState.isPaused ? '▶️ Resume' : '⏸️ Pause';
+      });
+
+      document.getElementById('clearButton')?.addEventListener('click', () => {
+        document.getElementById('terminalOutput').innerHTML = '';
+        AppState.serialBuffer = [];
+      });
+
+      document.getElementById('copyButton')?.addEventListener('click', () => {
+        const text = AppState.serialBuffer.map(d => `[${d.timestamp}] ${d.raw}`).join('\n');
+        navigator.clipboard.writeText(text);
+        alert('📋 Copied to clipboard!');
+      });
+
+      document.getElementById('refreshSchemaButton')?.addEventListener('click', async () => {
+        const response = await fetch('http://localhost:5001/api/schema');
+        const data = await response.json();
+        AppState.schema = data.schema || [];
+        updateSchemaDisplay();
+      });
+
+      // Configuration Controls
+      document.getElementById('saveConfigButton')?.addEventListener('click', saveConfiguration);
+      document.getElementById('loadDefaultConfig')?.addEventListener('click', loadDefaultConfiguration);
+
+      // Dashboard Controls
+      document.getElementById('refreshDashboard')?.addEventListener('click', loadDashboard);
+
+      // Settings Controls
+      document.getElementById('applySettings')?.addEventListener('click', () => {
+        const port = document.getElementById('serialPortSelect').value;
+        const baud = document.getElementById('baudRateSelect').value;
+        
+        AppState.socket.emit('change_serial_settings', { port, baud });
+        alert(`Requesting port change to ${port} @ ${baud} baud`);
+      });
+
+      // Request initial port list
+      AppState.socket?.emit('request_serial_ports');
+    });
+  </script>
+</body>
+</html>

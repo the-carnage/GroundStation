@@ -5,9 +5,10 @@ import { Server as SocketIOServer } from "socket.io";
 import path from "path";
 import { fileURLToPath } from "url";
 import startSerial from "./serialmonitor.js";
-import { getPortSnapshot, startPortMonitor } from "./port.js";
+import { getPortSnapshot, performInitialScan, scanPortsOnDemand } from "./port.js";
 import { exportCSV, exportXLSX, getCacheStatsHandler, clearCacheHandler } from "./exportController.js";
 import { getCachedData } from "./dataCache.js";
+import configManager from "./configManager.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,28 +22,53 @@ const io = new SocketIOServer(server, {
   },
 });
 
-const serialRefreshMs = Math.max(2000, parseInt(process.env.SERIAL_PORT_REFRESH_MS ?? "5000", 10));
-console.log(`🔄 Starting port monitor (refresh every ${serialRefreshMs}ms)`);
-startPortMonitor({
-  intervalMs: serialRefreshMs,
-  onUpdate: (snapshot) => {
-    console.log(`🔄 Port monitor update: ${snapshot.ports.length} ports, broadcasting to clients`);
-    io.emit("serial_port_list", snapshot.ports);
-    if (snapshot.error) {
-      io.emit("serial_port_list_error", { message: snapshot.error.message });
-    }
-  },
+// Perform initial port scan on startup
+console.log('🔍 Performing initial port scan on startup...');
+performInitialScan().then((snapshot) => {
+  console.log(`✅ Initial scan complete: ${snapshot.ports.length} port(s) found`);
+}).catch((err) => {
+  console.error('❌ Initial port scan failed:', err.message);
 });
 
-app.use(express.static(path.join(__dirname)));
 app.use(express.json());
 
+// Serve the new modern interface by default
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'app.html'));
+});
+
+// Legacy interface available at /legacy
+app.get('/legacy', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
+
+// Static files AFTER specific routes to prevent index.html from overriding
+app.use(express.static(path.join(__dirname)));
+
+// Get current port snapshot (cached)
 app.get("/api/serial-ports", (req, res) => {
   const snapshot = getPortSnapshot();
   if (snapshot.error && snapshot.ports.length === 0) {
     return res.status(500).json({ error: snapshot.error.message, ports: [] });
   }
   res.json({ ports: snapshot.ports });
+});
+
+// Manual port scan endpoint (triggered by scan button)
+app.post("/api/serial-ports/scan", async (req, res) => {
+  try {
+    console.log('🔍 Manual port scan triggered by client');
+    const snapshot = await scanPortsOnDemand();
+    // Broadcast updated port list to all connected clients
+    io.emit("serial_port_list", snapshot.ports);
+    if (snapshot.error) {
+      io.emit("serial_port_list_error", { message: snapshot.error.message });
+    }
+    res.json({ ports: snapshot.ports, success: true });
+  } catch (error) {
+    console.error('❌ Manual port scan failed:', error.message);
+    res.status(500).json({ error: error.message, ports: [], success: false });
+  }
 });
 
 // Export endpoints
@@ -59,6 +85,31 @@ app.get("/api/telemetry", (req, res) => {
   const type = req.query.type || 'all';
   const data = getCachedData(type, minutes);
   res.json(data);
+});
+
+// Get current data schema
+app.get("/api/schema", (req, res) => {
+  const schema = configManager.getSchema();
+  const stats = configManager.getStats();
+  res.json({ schema, stats });
+});
+
+// Get default configuration based on current schema
+app.get("/api/config/default", (req, res) => {
+  const defaultConfig = configManager.getDefaultConfig();
+  res.json(defaultConfig);
+});
+
+// Get schema statistics
+app.get("/api/schema/stats", (req, res) => {
+  const stats = configManager.getStats();
+  res.json(stats);
+});
+
+// Clear/reset schema (for testing/debugging)
+app.post("/api/schema/reset", (req, res) => {
+  configManager.clearSchema();
+  res.json({ success: true, message: "Schema reset successfully" });
 });
 
 function emitPortSnapshot(socket) {
@@ -80,6 +131,21 @@ io.on("connection", (socket) => {
     emitPortSnapshot(socket);
   });
 
+  // Handle manual port scan request via socket
+  socket.on("scan_serial_ports", async () => {
+    try {
+      console.log('🔍 Manual port scan requested via socket');
+      const snapshot = await scanPortsOnDemand();
+      io.emit("serial_port_list", snapshot.ports);
+      if (snapshot.error) {
+        io.emit("serial_port_list_error", { message: snapshot.error.message });
+      }
+    } catch (error) {
+      console.error('❌ Socket port scan failed:', error.message);
+      socket.emit("serial_port_list_error", { message: error.message });
+    }
+  });
+
   socket.on("change_serial_settings", (payload) => {
     console.info("Serial settings change requested:", payload);
     // apply to serial controller if available
@@ -92,6 +158,46 @@ io.on("connection", (socket) => {
       }
     } else {
       socket.emit("serial_settings_ack", { success: false, error: 'serial controller unavailable' });
+    }
+  });
+
+  // Handle demo/test data from demo generator
+  socket.on("test_data", async (data) => {
+    console.log('📊 Test data received:', data.raw.substring(0, 100));
+
+    // Import the parser dynamically
+    const { parseFlexibleData } = await import('./dataParser.js');
+    const configManagerModule = await import('./configManager.js');
+    const configMgr = configManagerModule.default;
+
+    try {
+      // Parse using flexible parser
+      const parsed = parseFlexibleData(data.raw);
+
+      if (parsed.data && Object.keys(parsed.data).length > 0) {
+        // Update schema
+        configMgr.updateSchema(parsed.data);
+
+        // Emit events as if from serial port
+        io.emit("serial_data", {
+          raw: data.raw,
+          timestamp: data.timestamp || new Date().toISOString(),
+        });
+
+        io.emit("schema_update", {
+          schema: configMgr.getSchema(),
+          format: parsed.format,
+        });
+
+        io.emit("telemetry_update", {
+          ...parsed.data,
+          serial_connected: true,
+          timestamp: parsed.timestamp.toISOString(),
+          format: parsed.format,
+        });
+      }
+    } catch (error) {
+      console.error('Error processing test data:', error.message);
     }
   });
 });
